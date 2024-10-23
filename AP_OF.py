@@ -11,7 +11,7 @@ model = joblib.load("combine.pkl")
 # Define feature names
 feature_names = [
     "TG", "TC", "HDL_C", "Hemoglobin", "CRP", "Amylase", "BUN", "Albumin",
-    "Blood_Glucose", "Serum sodium", "Calcium", "ALT","L1 Muscle Density", "L1 VAT Density", 
+    "Blood Glucose", "Serum sodium", "Calcium", "ALT","L1 Muscle Density", "L1 VAT Density", 
     "L1 VAT CSA", "L2 VAT Density", "L2 IMAT Density", "L3 Muscle Density", "L3 SAT Density", "L3 VAT Density", 
     "L3 IMAT Density", "L4 Muscle Density", "L4 Muscle CSA", "L4 SAT Density", "L4 VAT Density", "L4 VAT CSA", "L5 Muscle CSA", 
     "L5 SAT Density", "L5 VAT Density", "L5 IMAT Density", "liver Mean Density", "liver Median Density",
